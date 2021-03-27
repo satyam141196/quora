@@ -47,6 +47,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>2.3.3</version>
+        </dependency>
     </dependencies>
 
 
@@ -66,6 +71,7 @@
                         <generateModels>true</generateModels>
                         <modelPackage>com.upgrad.quora.api.model</modelPackage>
                         <configOptions>
+                            <java14>true</java14>
                             <java8>true</java8>
                             <sourceFolder>.</sourceFolder>
                             <dateLibrary>java8</dateLibrary>

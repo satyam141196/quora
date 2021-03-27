@@ -41,6 +41,12 @@
             <version>5.0.8.RELEASE</version>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.27.0-GA</version>
+        </dependency>
     </dependencies>
 
     <parent>
@@ -55,5 +61,10 @@
         <module>quora-service</module>
         <module>quora-api</module>
     </modules>
+
+    <properties>
+        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>14</maven.compiler.target>
+    </properties>
 
 </project>
