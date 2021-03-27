@@ -7,6 +7,7 @@ D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\
 D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\quora\service\exception\UserNotFoundException.java
 D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\quora\service\entity\UserEntity.java
 D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\quora\service\ServiceConfiguration.java
+D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\quora\service\business\UserAuthBusinessService.java
 D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\quora\service\business\PasswordCryptographyProvider.java
 D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\quora\service\exception\InvalidQuestionException.java
 D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\quora\service\common\ErrorCode.java
@@ -16,4 +17,5 @@ D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\
 D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\quora\service\common\GenericErrorCode.java
 D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\quora\service\business\UserBusinessService.java
 D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\quora\service\business\JwtTokenProvider.java
+D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\quora\service\business\AuthenticationService.java
 D:\MavenProjects\quora_stub\Trello_quora\quora-service\src\main\java\com\upgrad\quora\service\dao\UserDao.java

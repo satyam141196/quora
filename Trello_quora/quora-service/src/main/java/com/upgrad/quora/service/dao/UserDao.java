@@ -1,5 +1,6 @@
 package com.upgrad.quora.service.dao;
 
+import com.upgrad.quora.service.entity.UserAuthEntity;
 import com.upgrad.quora.service.entity.UserEntity;
 import org.springframework.stereotype.Repository;
 
@@ -40,4 +41,40 @@ public class UserDao {
             return null;
         }
     }
+
+    public UserAuthEntity createAuthToken(final UserAuthEntity userAuthEntity){
+        entityManager.persist(userAuthEntity);
+        return userAuthEntity;
+    }
+
+    public UserAuthEntity getUserAuth(final String accessToken){
+        try {
+            return entityManager.createNamedQuery("userAuthByAccessToken", UserAuthEntity.class).setParameter("accessToken" ,accessToken).getSingleResult();
+        }
+        catch (NoResultException nre){
+            return null;
+        }
+    }
+
+    public UserAuthEntity setUserLogout(final UserAuthEntity userAuthEntity){
+        entityManager.persist(userAuthEntity);
+        return userAuthEntity;
+    }
+
+    public UserEntity getUserByUuid(final String uuid) {
+        try {
+            return entityManager.createNamedQuery("userByUuid", UserEntity.class).setParameter("uuid",uuid).getSingleResult();
+        } catch(NoResultException nre) {
+            return null;
+        }
+    }
+
+    public void updateUser(final UserEntity updatedUserEntity){
+        entityManager.merge(updatedUserEntity);
+    }
+
+    public  void updateUserAuth(final  UserEntity updatedUserAuth){
+        entityManager.merge(updatedUserAuth);
+    }
+
 }
