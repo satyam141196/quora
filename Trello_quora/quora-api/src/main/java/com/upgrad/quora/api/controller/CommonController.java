@@ -1,3 +1,7 @@
+/*
+This class implements the following endpoints:
+1.userProfile - "/userprofile/{userId}"
+ */
 package com.upgrad.quora.api.controller;
 
 import com.upgrad.quora.api.model.UserDetailsResponse;

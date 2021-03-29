@@ -1,3 +1,9 @@
+/*
+This class implements the following endpoints:
+1.signup - "/user/signup"
+2.signin - "/user/signin"
+3.  signout - "/user/signout"
+ */
 package com.upgrad.quora.api.controller;
 
 import com.upgrad.quora.api.model.SigninResponse;

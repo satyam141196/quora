@@ -1,3 +1,10 @@
+/*
+This class implements the following endpoints:
+1.createAnswer - "/question/{questionId}/answer/create"
+2.editAnswerContent - "/answer/edit/{answerId}"
+3.deleteAnswer - "/answer/delete/{answerId}"
+4.getAllAnswersToQuestion - "answer/all/{questionId}"
+ */
 package com.upgrad.quora.api.controller;
 
 import com.upgrad.quora.api.model.*;

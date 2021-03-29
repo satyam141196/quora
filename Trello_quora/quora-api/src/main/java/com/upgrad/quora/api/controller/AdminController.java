@@ -1,3 +1,6 @@
+/*This controller class is for admin to delete users from database. Non-admin user is not aloowed to delete the users.
+This method request parameter as user uuid to be deleted and the authorization token of admin.
+ */
 package com.upgrad.quora.api.controller;
 
 import com.upgrad.quora.api.model.UserDeleteResponse;
